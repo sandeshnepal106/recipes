@@ -1,4 +1,14 @@
-div{
+.h1{
+    color: green;
+    background-color: rgb(245, 255, 177);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+.topics p:not(.head){
+    text-align: left;
+    font-size: 20px;
+    color: gold;
+}
+.topics .head {
     color: blue;
-    background-color: red;
 }
