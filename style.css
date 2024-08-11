@@ -1,27 +1,16 @@
-*{
-    margin: 10px;
-    padding: 30px;
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;   
+    color: white;
+    background-color: rgb(30, 13, 45);
+    margin: 20px;
+    padding: 15px;
+    background: url(https://preview.redd.it/whos-the-best-chef-v0-2waws2cx0zlc1.jpg?width=1080&crop=smart&auto=webp&s=06dcc9c83533642f4d6956a9669299eddcae7cfb) cover;
+    position: relative;
+    overflow-x: hidden;
 }
-.h1{
-    color: rgb(54, 95, 54);
-    margin:auto;
-    padding: 20px;
-    outline: 2px solid rgb(255, 0, 0);
-    background-color: rgb(242, 148, 195);
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    height: 40px;
-    width: 125px;
-    align-items: center;
-
-    
-}
-.topics p:not(.head){
-    text-align: left;
-    font-size: 20px;
-    color: rgb(5, 39, 23);
-    font-family: 'Times New Roman', Times, serif;
-}
-.topics .head {
-    color: rgb(148, 99, 9);
+a{
+    text-decoration: none;
+    color: rgb(230, 255, 157);
 }
