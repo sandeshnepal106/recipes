@@ -1,16 +1,46 @@
-body{
+body {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;   
-    color: white;
-    background-color: rgb(30, 13, 45);
+    color: rgb(0, 0, 0);
+    background-color: rgb(148, 42, 241);
     margin: 20px;
     padding: 15px;
-    background: url(https://preview.redd.it/whos-the-best-chef-v0-2waws2cx0zlc1.jpg?width=1080&crop=smart&auto=webp&s=06dcc9c83533642f4d6956a9669299eddcae7cfb) cover;
+    background: url('https://images.unsplash.com/photo-1499638309848-e9968540da83?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTl8fHxlbnwwfHx8fHw%3D') no-repeat center center fixed;
+    background-size: cover;
     position: relative;
     overflow-x: hidden;
+    font: bolder;
 }
-a{
-    text-decoration: none;
-    color: rgb(230, 255, 157);
+
+#head {
+    background-color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 50px;
+}
+
+nav a {
+    text-decoration: none; /* Fixed from 'hidden' to 'none' */
+    color: rgb(236, 0, 0);
+    font-weight: bold;
+}
+
+.inside {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 10px;
 }
